@@ -1,0 +1,206 @@
+{
+ "extName": {
+  "message": "AntiDrainer"
+ },
+ "extDescription": {
+  "message": "Blocks crypto phishing and wallet-drainer sites using 5 open databases and spots fake look-alike domains. Checks run locally."
+ },
+ "actionTitle": {
+  "message": "AntiDrainer"
+ },
+ "pageTitleList": {
+  "message": "Dangerous site blocked — AntiDrainer"
+ },
+ "badgeList": {
+  "message": "Phishing / drainer"
+ },
+ "titleList": {
+  "message": "Dangerous site blocked"
+ },
+ "leadList": {
+  "message": "This address is listed in phishing and wallet-drainer databases:"
+ },
+ "leadListNoSrc": {
+  "message": "This address is listed in phishing and wallet-drainer databases."
+ },
+ "matchedOn": {
+  "message": "Matched on the domain {1}."
+ },
+ "leadListTail": {
+  "message": "Sites like this steal crypto, passwords and card details."
+ },
+ "confirmList": {
+  "message": "I understand this site is flagged as fraudulent and I will not connect a wallet or enter passwords, a seed phrase or card details."
+ },
+ "pageTitleWeak": {
+  "message": "Suspicious site — AntiDrainer"
+ },
+ "badgeWeak": {
+  "message": "Suspicious site"
+ },
+ "titleWeak": {
+  "message": "This site is flagged as suspicious"
+ },
+ "leadWeak": {
+  "message": "This address is listed in {1}. That list includes both scam sites and hacked legitimate sites that had a drainer planted on them. If you are not sure, do not connect your wallet."
+ },
+ "confirmWeak": {
+  "message": "I understand the risk and will not connect my wallet or sign transactions unless I trust this site."
+ },
+ "pageTitleLook": {
+  "message": "Possible fake — AntiDrainer"
+ },
+ "badgeLook": {
+  "message": "Possible fake"
+ },
+ "titleLookBrand": {
+  "message": "This looks like a fake {1}"
+ },
+ "titleLook": {
+  "message": "This looks like a fake"
+ },
+ "leadLook": {
+  "message": "The address contains the name {1}, but this is not the official site. Brand-new phishing domains that are not in any database yet look exactly like this."
+ },
+ "genericCrypto": {
+  "message": "a crypto service"
+ },
+ "genericCryptoName": {
+  "message": "a known crypto service"
+ },
+ "confirmLook": {
+  "message": "I have checked the address and I am sure this is not a fake."
+ },
+ "brandLine": {
+  "message": "The real {1} site is {2}"
+ },
+ "goOfficial": {
+  "message": "Go to the real {1}"
+ },
+ "homoglyph": {
+  "message": "Letters in this address have been swapped — for example a Cyrillic “о” instead of a Latin “o”, or the digit “0” instead of the letter. You cannot see it with the naked eye."
+ },
+ "leave": {
+  "message": "Close tab"
+ },
+ "tip1": {
+  "message": "Do not connect or sign anything: drainers steal through “Connect wallet” and approval signatures."
+ },
+ "tip2": {
+  "message": "Open crypto services and banks from bookmarks or type the address yourself — not from search results or ads."
+ },
+ "riskSummary": {
+  "message": "I understand the risk"
+ },
+ "proceed": {
+  "message": "Open just this once"
+ },
+ "trust": {
+  "message": "This is the official site — always trust it"
+ },
+ "footerBlocked": {
+  "message": "AntiDrainer · checked locally on your device"
+ },
+ "checking": {
+  "message": "Checking…"
+ },
+ "notChecked": {
+  "message": "This page is not checked"
+ },
+ "statusList": {
+  "message": "Dangerous: listed in {1}"
+ },
+ "statusWeak": {
+  "message": "Suspicious: listed in {1}"
+ },
+ "statusLook": {
+  "message": "Looks like a fake {1}"
+ },
+ "statusAllowed": {
+  "message": "Opened manually despite a warning"
+ },
+ "statusOk": {
+  "message": "No threats found"
+ },
+ "untrust": {
+  "message": "Remove this site from trusted"
+ },
+ "statDomains": {
+  "message": "domains in databases"
+ },
+ "statBlocked": {
+  "message": "blocked"
+ },
+ "statWarned": {
+  "message": "warnings"
+ },
+ "dbTitle": {
+  "message": "Scam site databases"
+ },
+ "updatedAt": {
+  "message": "updated {1}"
+ },
+ "updating": {
+  "message": "updating databases…"
+ },
+ "offline": {
+  "message": "no connection to GitHub — using the saved copy"
+ },
+ "bundledCopy": {
+  "message": "built-in copy, will update automatically"
+ },
+ "refresh": {
+  "message": "Update"
+ },
+ "refreshing": {
+  "message": "Updating…"
+ },
+ "done": {
+  "message": "Done"
+ },
+ "partial": {
+  "message": "Partly"
+ },
+ "lookalikeLabel": {
+  "message": "Detect fakes"
+ },
+ "lookalikeSub": {
+  "message": "tr0nscan, metamask-wallet, v2-tronbridge…"
+ },
+ "trustedTitle": {
+  "message": "Trusted sites"
+ },
+ "remove": {
+  "message": "remove"
+ },
+ "footerPopup": {
+  "message": "Checks run locally: the sites you open are never sent anywhere."
+ },
+ "warnTag": {
+  "message": "warning"
+ },
+ "warnTagTitle": {
+  "message": "If a site is only in this database, you get a yellow warning instead of a block"
+ },
+ "lastUpdateFailed": {
+  "message": "last update failed"
+ },
+ "src_phishdestroy": {
+  "message": "Phishing and drainers verified as active"
+ },
+ "src_metamask": {
+  "message": "The MetaMask wallet's official list"
+ },
+ "src_scamsniffer": {
+  "message": "Crypto scams and sites with planted drainers"
+ },
+ "src_polkadot": {
+  "message": "Crypto phishing (Polkadot.js)"
+ },
+ "src_phishdb": {
+  "message": "General phishing: banks, email, social media. More false positives"
+ },
+ "locale": {
+  "message": "en"
+ }
+}

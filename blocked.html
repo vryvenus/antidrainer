@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AntiDrainer</title>
+<link rel="stylesheet" href="blocked.css">
+</head>
+<body>
+<main class="card" id="card">
+  <div class="badge" id="badge"></div>
+  <h1 id="title"></h1>
+  <div class="host" id="host"></div>
+  <p id="lead"></p>
+  <p id="brandLine" hidden></p>
+  <p id="homoglyphLine" class="note" hidden data-i18n="homoglyph"></p>
+
+  <div class="actions">
+    <a id="goOfficial" class="btn primary" hidden></a>
+    <button id="leave" class="btn" type="button" data-i18n="leave"></button>
+  </div>
+
+  <ul class="tips">
+    <li data-i18n="tip1"></li>
+    <li data-i18n="tip2"></li>
+  </ul>
+
+  <details id="risk">
+    <summary data-i18n="riskSummary"></summary>
+    <div class="risk-body">
+      <label class="check"><input type="checkbox" id="confirm"> <span id="confirmText"></span></label>
+      <div class="actions">
+        <button id="proceed" class="btn danger" type="button" disabled data-i18n="proceed"></button>
+        <button id="trust" class="btn" type="button" hidden disabled data-i18n="trust"></button>
+      </div>
+    </div>
+  </details>
+  <footer data-i18n="footerBlocked"></footer>
+</main>
+<script type="module" src="blocked.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/32.png" alt="" width="22" height="22">
+    <span>AntiDrainer</span>
+  </header>
+
+  <section class="site" id="site">
+    <div class="dot" id="dot"></div>
+    <div>
+      <div class="site-host" id="siteHost">—</div>
+      <div class="site-status" id="siteStatus" data-i18n="checking"></div>
+    </div>
+  </section>
+  <button class="link" id="untrustBtn" hidden data-i18n="untrust"></button>
+
+  <section class="stats">
+    <div><b id="count">—</b><span data-i18n="statDomains"></span></div>
+    <div><b id="blocked">0</b><span data-i18n="statBlocked"></span></div>
+    <div><b id="warned">0</b><span data-i18n="statWarned"></span></div>
+  </section>
+
+  <section class="row">
+    <div>
+      <div class="label" data-i18n="dbTitle"></div>
+      <div class="sub" id="updated">—</div>
+    </div>
+    <button class="btn" id="refresh" data-i18n="refresh"></button>
+  </section>
+  <ul class="sources" id="sources"></ul>
+
+  <label class="row toggle">
+    <div>
+      <div class="label" data-i18n="lookalikeLabel"></div>
+      <div class="sub" data-i18n="lookalikeSub"></div>
+    </div>
+    <input type="checkbox" id="lookalike">
+  </label>
+
+  <section class="trusted" id="trustedBox" hidden>
+    <div class="label" data-i18n="trustedTitle"></div>
+    <ul id="trustedList"></ul>
+  </section>
+
+  <footer data-i18n="footerPopup"></footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
